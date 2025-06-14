@@ -1,0 +1,219 @@
+2025-06-05T19:32:58.203-03:00  INFO 13928 --- [ControlePedido] [restartedMain] com.curso.ControlePedidoApplication      : Starting ControlePedidoApplication using Java 21.0.2 with PID 13928 (C:\Users\João\OneDrive\Documentos\Projeto Visuais\ControlePedido\target\classes started by João in C:\Users\João\OneDrive\Documentos\Projeto Visuais\ControlePedido)
+2025-06-05T19:32:58.203-03:00  INFO 13928 --- [ControlePedido] [restartedMain] com.curso.ControlePedidoApplication      : The following 1 profile is active: "test"
+2025-06-05T19:32:58.301-03:00  INFO 13928 --- [ControlePedido] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-05T19:32:58.301-03:00  INFO 13928 --- [ControlePedido] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-05T19:32:59.407-03:00  INFO 13928 --- [ControlePedido] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-05T19:32:59.470-03:00  INFO 13928 --- [ControlePedido] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2025-06-05T19:33:00.891-03:00  INFO 13928 --- [ControlePedido] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-05T19:33:00.923-03:00  INFO 13928 --- [ControlePedido] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-05T19:33:00.923-03:00  INFO 13928 --- [ControlePedido] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-05T19:33:00.985-03:00  INFO 13928 --- [ControlePedido] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-05T19:33:00.985-03:00  INFO 13928 --- [ControlePedido] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2684 ms
+2025-06-05T19:33:01.199-03:00  INFO 13928 --- [ControlePedido] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-05T19:33:01.511-03:00  INFO 13928 --- [ControlePedido] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ControlePedidodb user=SA
+2025-06-05T19:33:01.511-03:00  INFO 13928 --- [ControlePedido] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-05T19:33:01.590-03:00  INFO 13928 --- [ControlePedido] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-05T19:33:01.717-03:00  INFO 13928 --- [ControlePedido] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-06-05T19:33:01.796-03:00  INFO 13928 --- [ControlePedido] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@3bf94033
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@3bf94033
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@3bf94033
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@352a5332
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@352a5332
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.BasicTypeReference@2c72aa19
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@2c72aa19
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@1c5d0b41
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@1c5d0b41
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@6d542821
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@6d542821
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@6d542821
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BasicTypeReference@a80457a
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@a80457a
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BasicTypeReference@a80457a
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@331b1451
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@331b1451
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.BasicTypeReference@47e81670
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BasicTypeReference@bb13b8c
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@bb13b8c
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@3921415
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@68c031aa
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@6f1ce154
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@6f1ce154
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@6f1ce154
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.BasicTypeReference@6d73da60
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.BasicTypeReference@6d73da60
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@6d73da60
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@7ed25967
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@7ed25967
+2025-06-05T19:33:01.938-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@7ed25967
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@17766a76
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@17766a76
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@17766a76
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@1fe83f8d
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@1fe83f8d
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@1fe83f8d
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@6cbb56ca
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@6cbb56ca
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@ce235b
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@ce235b
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.BasicTypeReference@244fdcee
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.BasicTypeReference@244fdcee
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@244fdcee
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@7a858bbd
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.BasicTypeReference@4c3e8f21
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@4c3e8f21
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.BasicTypeReference@3d9bb906
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.BasicTypeReference@67e9aaf7
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.BasicTypeReference@67e9aaf7
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.BasicTypeReference@67e9aaf7
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@31671dd4
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.BasicTypeReference@918db5e
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.BasicTypeReference@692b00f2
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.BasicTypeReference@43bfa132
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@43bfa132
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.BasicTypeReference@4a3f9d2c
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@4a3f9d2c
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@5327d1e
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@342fd1da
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@a27405c
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@3c476ac9
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@2a8b2ad2
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@60e09f58
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.BasicTypeReference@50f516b8
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@50f516b8
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@57632f4d
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@57632f4d
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@244d52c9
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@244d52c9
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@40331347
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@40331347
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@388b8d2f
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@388b8d2f
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@765cc434
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@38c90b2c
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@60b88e59
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@60b88e59
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@4be8594
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@14539c53
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@64b3759e
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@405de517
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@405de517
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@303f4aad
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@3886f9fd
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.BasicTypeReference@47e664f6
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@47e664f6
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.BasicTypeReference@68bc4440
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@68bc4440
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@221c01d8
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@221c01d8
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@221c01d8
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.BasicTypeReference@2d5a4d77
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@2d5a4d77
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@2d5a4d77
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@59ef4dfe
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@53fb8cc7
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration instant -> org.hibernate.type.BasicTypeReference@11ab55a1
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@11ab55a1
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid -> org.hibernate.type.BasicTypeReference@6ee59316
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@6ee59316
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@6ee59316
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@4dc6a389
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@42d49342
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.BasicTypeReference@999c0e4
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@999c0e4
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.BasicTypeReference@4ba69fe2
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Currency -> org.hibernate.type.BasicTypeReference@4ba69fe2
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@4ba69fe2
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.BasicTypeReference@3384a7f4
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@3384a7f4
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.BasicTypeReference@552c7c45
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@552c7c45
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.BasicTypeReference@127508e4
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@127508e4
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@6d53ccc7
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@6d53ccc7
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.BasicTypeReference@7b7e6d9e
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@7b7e6d9e
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration vector -> org.hibernate.type.BasicTypeReference@4d86f8e0
+2025-06-05T19:33:01.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.BasicTypeReference@778eeb9c
+2025-06-05T19:33:01.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.JavaObjectType@28e6600e
+2025-06-05T19:33:01.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@28e6600e
+2025-06-05T19:33:01.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration null -> org.hibernate.type.NullType@2210a2b8
+2025-06-05T19:33:01.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@68ee531d
+2025-06-05T19:33:01.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@3e0e1c30
+2025-06-05T19:33:01.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@19ac6c2b
+2025-06-05T19:33:01.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@3c0a2b8
+2025-06-05T19:33:01.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@15537973
+2025-06-05T19:33:01.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@5b721875
+2025-06-05T19:33:01.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@21c5ea04
+2025-06-05T19:33:01.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@271659e6
+2025-06-05T19:33:02.360-03:00  INFO 13928 --- [ControlePedido] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-05T19:33:02.485-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NCharTypeDescriptor) replaced previous registration(CharTypeDescriptor)
+2025-06-05T19:33:02.485-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NVarcharTypeDescriptor) replaced previous registration(VarcharTypeDescriptor)
+2025-06-05T19:33:02.485-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(LongNVarcharTypeDescriptor) replaced previous registration(LongVarcharTypeDescriptor)
+2025-06-05T19:33:02.500-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NClobTypeDescriptor(DEFAULT)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2025-06-05T19:33:02.500-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(2005, ClobTypeDescriptor(STREAM_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2025-06-05T19:33:02.500-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(TimestampUtcDescriptor) replaced previous registration(TimestampUtcDescriptor)
+2025-06-05T19:33:02.500-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.DurationType -> basicType@1(java.time.Duration,3015)
+2025-06-05T19:33:02.500-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> basicType@1(java.time.Duration,3015)
+2025-06-05T19:33:02.500-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> basicType@1(java.time.Duration,3015)
+2025-06-05T19:33:02.500-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2af93226] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@75c22470]
+2025-06-05T19:33:03.422-03:00  INFO 13928 --- [ControlePedido] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-05T19:33:03.422-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2af93226] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@78d749c1]
+2025-06-05T19:33:03.437-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists pedido cascade 
+2025-06-05T19:33:03.437-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_pedido
+2025-06-05T19:33:03.437-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_pedido start with 1 increment by 50
+2025-06-05T19:33:03.453-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.SQL                        : 
+    create table pedido (
+        estado_atual tinyint check (estado_atual between 0 and 3),
+        frete numeric(18,3),
+        valor numeric(18,3) not null,
+        id bigint not null,
+        nome varchar(255) not null,
+        metodo_envio enum ('AEREO','TERRESTRE'),
+        primary key (id)
+    )
+2025-06-05T19:33:03.469-03:00 TRACE 13928 --- [ControlePedido] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@78d749c1] for TypeConfiguration
+2025-06-05T19:33:03.469-03:00  INFO 13928 --- [ControlePedido] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-05T19:33:03.875-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.SQL                        : 
+    select
+        next value for seq_pedido
+2025-06-05T19:33:03.953-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pedido
+        (estado_atual, frete, metodo_envio, nome, valor, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-06-05T19:33:03.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.SQL                        : 
+    select
+        next value for seq_pedido
+2025-06-05T19:33:03.969-03:00 DEBUG 13928 --- [ControlePedido] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pedido
+        (estado_atual, frete, metodo_envio, nome, valor, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-06-05T19:33:04.250-03:00  WARN 13928 --- [ControlePedido] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-05T19:33:04.796-03:00  INFO 13928 --- [ControlePedido] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ControlePedidodb'
+2025-06-05T19:33:04.890-03:00  INFO 13928 --- [ControlePedido] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-06-05T19:33:04.937-03:00  INFO 13928 --- [ControlePedido] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-05T19:33:04.937-03:00  INFO 13928 --- [ControlePedido] [restartedMain] com.curso.ControlePedidoApplication      : Started ControlePedidoApplication in 7.531 seconds (process running for 8.375)
+2025-06-05T19:33:07.892-03:00  INFO 13928 --- [ControlePedido] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-05T19:33:07.892-03:00  INFO 13928 --- [ControlePedido] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-05T19:33:07.897-03:00  INFO 13928 --- [ControlePedido] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-06-05T19:33:08.561-03:00  INFO 13928 --- [ControlePedido] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 230 ms
+2025-06-05T19:33:14.433-03:00  INFO 13928 --- [ControlePedido] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-05T19:33:14.433-03:00 DEBUG 13928 --- [ControlePedido] [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists pedido cascade 
+2025-06-05T19:33:14.433-03:00 DEBUG 13928 --- [ControlePedido] [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    drop sequence if exists seq_pedido
+2025-06-05T19:33:14.433-03:00 TRACE 13928 --- [ControlePedido] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@78d749c1] for TypeConfiguration
+2025-06-05T19:33:14.433-03:00 DEBUG 13928 --- [ControlePedido] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@188bc4fa] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@78d749c1]
+2025-06-05T19:33:14.433-03:00  WARN 13928 --- [ControlePedido] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2025-06-05T19:33:14.433-03:00  INFO 13928 --- [ControlePedido] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-05T19:33:14.433-03:00  INFO 13928 --- [ControlePedido] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
